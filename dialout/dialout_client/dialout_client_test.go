@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"github.com/go-redis/redis"
 	//"github.com/golang/protobuf/proto"
-	testcert "github.com/Azure/sonic-telemetry/testdata/tls"
+	testcert "github.com/akokhan/sonic-telemetry/testdata/tls"
 
 	//"github.com/kylelemons/godebug/pretty"
 	//"github.com/openconfig/gnmi/client"
@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	sds "github.com/Azure/sonic-telemetry/dialout/dialout_server"
-	sdc "github.com/Azure/sonic-telemetry/sonic_data_client"
-	sdcfg "github.com/Azure/sonic-telemetry/sonic_db_config"
+	sds "github.com/akokhan/sonic-telemetry/dialout/dialout_server"
+	sdc "github.com/akokhan/sonic-telemetry/sonic_data_client"
+	sdcfg "github.com/akokhan/sonic-telemetry/sonic_db_config"
 	gclient "github.com/openconfig/gnmi/client/gnmi"
 )
 

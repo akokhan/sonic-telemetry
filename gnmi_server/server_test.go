@@ -6,7 +6,7 @@ package gnmi
 import (
 	"crypto/tls"
 	"encoding/json"
-	testcert "github.com/Azure/sonic-telemetry/testdata/tls"
+	testcert "github.com/akokhan/sonic-telemetry/testdata/tls"
 	"github.com/go-redis/redis"
 	"github.com/golang/protobuf/proto"
 
@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 	// Register supported client types.
-	sdc "github.com/Azure/sonic-telemetry/sonic_data_client"
-	sdcfg "github.com/Azure/sonic-telemetry/sonic_db_config"
+	sdc "github.com/akokhan/sonic-telemetry/sonic_data_client"
+	sdcfg "github.com/akokhan/sonic-telemetry/sonic_db_config"
 	gclient "github.com/jipanyang/gnmi/client/gnmi"
 )
 

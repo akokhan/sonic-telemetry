@@ -7,7 +7,7 @@ import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 import _ "github.com/openconfig/gnmi/proto/gnmi"
-import sdcfg "github.com/Azure/sonic-telemetry/sonic_db_config"
+import sdcfg "github.com/akokhan/sonic-telemetry/sonic_db_config"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
